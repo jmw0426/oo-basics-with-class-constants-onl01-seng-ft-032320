@@ -12,6 +12,7 @@ class Shoe
     #   BRANDS.delete(0)
   end
 BRANDS = BRANDS.uniq
+BRANDS.uniq
 
   # def brand=(brand)
   #   @brand = brand
