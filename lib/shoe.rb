@@ -10,6 +10,7 @@ class Shoe
     if BRANDS.length > 3
       BRANDS.delete(0)
   end
+end
 
   # def brand=(brand)
   #   @brand = brand
