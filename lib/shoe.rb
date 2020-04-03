@@ -6,10 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    
-    BRANDS << @brand
-    unique = BRANDS.uniq
-    unique
+    if BRANDS.include?(brand)
+      BRANDS << brand
+    end
     
     # if BRANDS.length > 3
     #   BRANDS.delete(0)
